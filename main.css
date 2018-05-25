@@ -1,3 +1,33 @@
+/* Color Palette Colors */
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+/* Color Palette */
+.color {
+  max-width: 50px;
+  max-height: 50px;
+  min-width: 50px;
+  min-height: 50px;
+  border: 1pt solid black;
+}
+
+.color-palette {
+  border: 2pt solid green;
+  display: grid;
+  grid-template-columns: 50px 50px;
+  grid-template-rows: 50px;
+  margin-top: 20px;
+  padding: 5px;
+  width: 100px;
+}
+
+/* Canvas */
 .pixel {
   max-width: 100px;
   max-height: 100px;

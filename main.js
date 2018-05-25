@@ -7,4 +7,14 @@ document.addEventListener('DOMContentLoaded', function () {
       pixel.style.backgroundColor = 'red'
     })
   })
+
+  const colors = document.querySelectorAll('.color')
+  const colorsArr = Array.from(colors)
+  let currentColor
+
+  colorsArr.forEach(color => {
+    color.addEventListener('click', () => {
+      currentColor = color.classList[1]
+    })
+  })
 })
