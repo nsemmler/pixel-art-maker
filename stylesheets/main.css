@@ -1,0 +1,64 @@
+/* Color Palette and Current Color */
+.selected-color {
+  max-width: 120px;
+  max-height: 120px;
+  min-width: 120px;
+  min-height: 120px;
+  border: 1px solid black;
+  margin: 20px 0;
+}
+
+.color {
+  max-width: 25px;
+  max-height: 25px;
+  min-width: 25px;
+  min-height: 25px;
+  border: 1px solid black;
+}
+
+.color-palette {
+  display: grid;
+  grid-template-columns: 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px;
+  grid-template-rows: 25px 25px 25px 25px 25px 25px;
+  margin-top: 4px;
+  width: 600px;
+  height: 150px;
+}
+
+.container {
+  border: 1px solid black;
+  display: flex;
+  max-width: 800px;
+  width: 800px;
+  margin: 40px 22%;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* Canvas */
+.pixel {
+  max-width: 15px;
+  max-height: 15px;
+  min-width: 15px;
+  min-height: 15px;
+  border: 1px solid black;
+  border-spacing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.canvas {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px;
+  grid-template-rows: 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px;
+
+  max-width: 1200px;
+  max-height: 750px;
+  min-width: 1200px;
+  min-height: 750px;
+  margin: auto;
+  margin-top: 50px;
+  /* padding: 0; */
+}
