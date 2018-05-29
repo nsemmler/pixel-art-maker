@@ -19,9 +19,9 @@ Here's a development workflow that we recommend you use.
 [x] Create a small palette of two colors (e.g. red and blue) below the canvas using more `div` tags.
 [x] Add an event listener to these `div` tags so when clicked the brush color is saved.
 [x] Expand the dimensions of the pixel canvas.
-[] Expand the palette with more colors. (i.e. red, orange, yellow, green, blue, purple, brown, gray, black, white, etc.)
-[] Expand the palette with a brush color indicator.
-[] Improve the look and feel of the canvas and color palette. Be careful not to break your program's behavior!
+[x] Expand the palette with more colors. (i.e. red, orange, yellow, green, blue, purple, brown, gray, black, white, etc.)
+[x] Expand the palette with a brush color indicator.
+[x] Improve the look and feel of the canvas and color palette. Be careful not to break your program's behavior!
 
 **TIP:** Check out [this handy tool](http://www.colors.commutercreative.com/grid/) to see a list of all the named colors in CSS.
 
